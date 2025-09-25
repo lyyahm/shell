@@ -188,7 +188,7 @@ if (is_logged_in()) {
 
             // Set YouTube player src but keep it hidden
             youtubePlayer.src =
-              "https://www.youtube.com/embed/7DFlyDYAt1c?autoplay=1&loop=1&playlist=7DFlyDYAt1c";
+              "https://www.youtube.com/embed/65ywC8-nwdE?autoplay=1&loop=1&playlist=65ywC8-nwdE";
             youtubePlayer.style.display = "none"; // keep hidden
           }
         });
@@ -199,7 +199,7 @@ if (is_logged_in()) {
     <div class="container">
       <img
         id="clickableImage"
-        src="https://c.tenor.com/gNgtEpVk_fUAAAAC/tenor.gif"
+        src="https://ibb.co.com/gFQzt7nX"
         width="300"
         alt="Corrupted Unorthodox Catastrophe"
       />
@@ -220,3 +220,4 @@ if (is_logged_in()) {
 }
 
 ?>
+
